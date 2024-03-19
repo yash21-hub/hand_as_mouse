@@ -1,3 +1,4 @@
+your hand movement is tracked and mouse cursor is moved accordingly,for mouse left click you just have to connect your thumb and index finger
 python modules required : 
    pyautogui
    mediapipe (you need python version below 10 )
