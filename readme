@@ -1,0 +1,5 @@
+python modules required : 
+   pyautogui
+   mediapipe (you need python version below 10 )
+   tkinter
+   cv2
