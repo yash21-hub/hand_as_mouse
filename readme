@@ -1,10 +1,10 @@
-This code is helpful for lazy people like me 
+This code is helpful for lazy people like me 🥱
 your hand movement is tracked and mouse cursor is moved accordingly,for mouse left click you just have to connect your thumb and index finger
 python modules required : 
    pyautogui
    mediapipe (you need python version below 10 )
    tkinter
-   cv2
+   cv2 
 This code creates a user interface where you can control your computer's mouse cursor using hand gestures captured by your webcam. Here's a breakdown of what it does:
 1. **Camera Setup**: It accesses your computer's webcam and sets its frame width and height
 2. **GUI Creation**: It creates a window with two main sections:
