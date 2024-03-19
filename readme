@@ -3,3 +3,14 @@ python modules required :
    mediapipe (you need python version below 10 )
    tkinter
    cv2
+This code creates a user interface where you can control your computer's mouse cursor using hand gestures captured by your webcam. Here's a breakdown of what it does:
+1. **Camera Setup**: It accesses your computer's webcam and sets its frame width and height
+2. **GUI Creation**: It creates a window with two main sections:
+   - **Camera Feed**: Displays a live video feed from your webcam, showing your hand movements
+   - **Sensitivity Control**: Provides a slider that lets you adjust the sensitivity of the hand gestures to control the mouse cursor.
+3. **Hand Tracking**: It uses the MediaPipe library to detect and track the movements of your hand in the camera feed.
+4. **Mouse Control**: Based on the position of your hand in the camera feed, it moves the mouse cursor on your computer screen. If you make a gesture that resembles a left-click (like bringing your thumb and index finger close together), it simulates a mouse click action.
+5. **Real-Time Feedback**: As you move your hand, you'll see the camera feed updating in real-time, and the mouse cursor on your screen will follow your hand movements.
+6. **User Interaction**: You can adjust the sensitivity slider to make the mouse cursor more or less responsive to your hand movements, depending on your preference.
+7. **Cleanup**: Once you close the program, it releases the webcam and closes any open windows related to the camera feed.
+Overall, it's an interactive system that allows you to control your computer's mouse cursor using hand gestures captured by your webcam, providing a unique and intuitive way to interact with your computer without needing to touch a physical mouse.
